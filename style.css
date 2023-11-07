@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: #0e351e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #0e351e;
+    display: inline-block;
+    
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.section-container {
+    display: flex;
+}
+
+section {
+    flex: 1;
+    border: 1px solid #000;
+    padding: 10px;
+}
+/* In your style.css file, or within a <style> block in the HTML head */
+body {
+    background-image: url('back.jpg'); /* Replace 'your-image.jpg' with the actual image file name or path */
+    background-size: cover; /* Adjust background size as needed */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-attachment: fixed; /* Optional: Fixed background */
+}
